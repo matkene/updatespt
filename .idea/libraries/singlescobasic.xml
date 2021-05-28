@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="singlescobasic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mod/imscp/tests/packages/singlescobasic.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,76 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    Edwiser RemUI 
+    @package    theme_remui
+    @copyright  (c) 2018 WisdmLabs (https://wisdmlabs.com/)
+    @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ 
+}}
+{{!
+    @template theme_remui/block
+
+    Example context (json):
+    {
+        "id": "block0",
+        "showskiplink": true,
+        "type": "html",
+        "ariarole": "complementary",
+        "title": "Test block",
+        "blockinstanceid": 1,
+        "content": "<p>Hello block world!</p>"
+    }
+
+}}
+<div class="{{^isremuiblck}}panel panel-bordered{{/isremuiblck}} {{#hidden}}hidden{{/hidden}} block block_{{type}} {{#hascontrols}}block_with_controls{{/hascontrols}} "
+id="{{id}}" role="{{ariarole}}" data-block="{{type}}"
+{{#arialabel}} aria-label={{#quote}}{{{arialabel}}}{{/quote}} {{/arialabel}}
+{{^arialabel}} {{#title}} aria-labelledby="instance-{{blockinstanceid}}-header" {{/title}} {{/arialabel}} 
+{{#isremuiblck}}style="background-color: transparent;"{{/isremuiblck}}
+>
+    <div class="panel-heading {{^isremuiblck}}card-block{{/isremuiblck}} ">
+        <div class="row m-0 p-0">
+            {{#hascontrols}}<div class="col-9 col-md-10 col-lg-10 m-0 p-0">{{/hascontrols}}
+            {{^hascontrols}}<div class="col-12 m-0 p-0">{{/hascontrols}}
+                {{#isremuiblck}}
+                    {{#hascontrols}}
+                        {{#title}}
+                            <h4 id="instance-{{blockinstanceid}}-header" class="p-20 m-0 wdm-block-title" title="{{{title}}}">{{{title}}}</h4>
+                        {{/title}}
+                    {{/hascontrols}}
+                {{/isremuiblck}}
+                {{^isremuiblck}}
+                    {{#title}}
+                        <h4 id="instance-{{blockinstanceid}}-header" class="p-20 m-0 wdm-block-title"  title="{{{title}}}">{{{title}}}</h4>
+                    {{/title}}
+                {{/isremuiblck}}
+            </div>
+            
+            {{#hascontrols}}
+            <div class="col-3 col-lg-2 col-md-2 mt-10">
+                <div class="block-controls header float-right">
+                {{{controls}}}
+                </div>
+            </div>
+            {{/hascontrols}}
+        </div>
+        
+    </div>
+    <div class="{{^isremuiblck}}panel-body px-20 pb-20 pt-0{{/isremuiblck}} {{#dragable}}drag{{/dragable}}">
+        {{{content}}}
+    </div>
+    {{#footer}}
+    <div class="panel-footer border-top-0">{{{footer}}}</div>
+    {{/footer}}
+        {{{annotation}}}
+</div>

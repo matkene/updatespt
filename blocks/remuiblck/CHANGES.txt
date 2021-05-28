@@ -1,0 +1,52 @@
+Change Log:
+===========
+
+v 1.0.7 [ Edwiser RemUI 3.4, 3.5, 3.6 and 3.7 Compatible ]
+==========================================================
+
+Fix - Added few language translation for Course Progress block.
+Tweak - Added auto-generated pattern to course card when course image is not uploaded.
+Tweak - Improved dashboard page loading time.
+
+
+v 1.0.6
+=======
+
+Fix - Postgres Sql compatibility with To Do List Block
+Fix - Uninstallation problem with plugin db/uninstall.php
+Tweak - Added Pagination to Course analytics block and Manage Courses Block
+
+
+
+v 1.0.5 [ Edwiser RemUI 3.5, 3.6 and 3.7 Comapatible ]
+======================================================
+
+Fix - Babel-Helpers Error for asPieProgress in Course Progress
+Fix - Todo List table Creation Problem on upgrade
+Fix - Courses link in Course Progress Block is not clickable when no user is enrolled
+Fix - Fixed Course Analytics block visibility for students.
+Tweak - Edwiser RemUI Compatibility with 3.5
+Fix - Course overview block responsiveness problem when both sidebars are open fixed
+
+v 1.0.4 [ Edwiser RemUI 3.6 and 3.7 Compatible Only]
+====================================================
+
+Feature - Added Manage Courses Block for teacher to access enrolled courses directly from dashboard.
+Feature - Course report for teacher in manage courses block.
+Feature - See which student is irregular in table format and send message directly from table.
+Feature - Added To Do List Block for all users to create and assign task to self or to mates.
+Tweak - Improved performance of each blocks.
+Fix - Roles handling for each blocks.
+
+v 1.0.3 [ Edwiser RemUI 3.6.0 Compatible Only ]
+===============================================
+
+Tweak - Improved the UI
+Tweak - Multilang support for courseprogress table course name
+Fix - Made compatible with Moodle 3.6
+Fix - Course Progress Block, progress piechart issue when table reordered
+
+v 1.0.1
+=======
+
+Fix - Exception handled with templatecontext and curblock errors

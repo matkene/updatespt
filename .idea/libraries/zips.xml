@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zips">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tests/fixtures/update_validator/zips/multidir.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tests/fixtures/update_validator/zips/bar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tests/fixtures/update_validator/zips/invalidroot.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

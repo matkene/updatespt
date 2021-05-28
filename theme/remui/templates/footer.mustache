@@ -1,0 +1,102 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    Edwiser RemUI 
+    @package    theme_remui
+    @copyright  (c) 2018 WisdmLabs (https://wisdmlabs.com/)
+    @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ 
+}}
+{{!
+    @template theme_remui/footer
+
+    footer template
+}}
+
+<!-- Footer -->
+<footer class="site-footer {{# sitecolor }} bg-{{sitecolor}}-600 {{/ sitecolor }} {{^ sitecolor }} bg-primary-600 {{/ sitecolor }} grey-100">
+    {{# footerdata }}
+    <div class="container">
+        <div class="row">
+           {{# sections }}
+            <div class="{{ classes }} text-xs-center">
+                <div class="py-30 px-10">
+                    <h4 class="card-title mt-10 grey-100">{{ title }}</h4>
+                    <p class="card-text">{{{ content }}}</p>
+                </div>
+            </div>
+            {{/ sections }}
+
+            {{# social }}
+            <div class="{{ classes }} text-xs-center">
+                <div class="py-30 px-10">
+                    <h4 class="card-title mt-10 grey-100">{{# str }} followus, theme_remui {{/ str }}</h4>
+                    <p class="card-text">
+                        {{# facebook }}
+                            <a href="{{ facebook }}" target="_blank" class="btn btn-icon btn-round social-facebook m-5"><i class="icon fa-facebook" aria-hidden="true"></i></a>
+                        {{/ facebook }}
+                        {{# twitter }}
+                            <a href="{{ twitter }}" target="_blank" class="btn btn-icon btn-round social-twitter m-5"><i class="icon fa-twitter" aria-hidden="true"></i></a>
+                        {{/ twitter }}
+                        {{# linkedin }}
+                            <a href="{{ linkedin }}" target="_blank" class="btn btn-icon btn-round social-linkedin m-5"><i class="icon fa-linkedin" aria-hidden="true"></i></a>
+                        {{/ linkedin }}
+                        {{# quora }}
+                            <a href="{{ quora }}" target="_blank" class="btn btn-icon btn-round social-pinterest m-5"><i class="icon fa-quora" aria-hidden="true"></i></a>
+                        {{/ quora }}
+                        {{# gplus }}
+                            <a href="{{ gplus }}" target="_blank" class="btn btn-icon btn-round social-google-plus m-5"><i class="icon fa-google-plus" aria-hidden="true"></i></a>
+                        {{/ gplus }}
+                        {{# instagram }}
+                            <a href="{{ instagram }}" target="_blank" class="btn btn-icon btn-round social-instagram m-5"><i class="icon fa-instagram" aria-hidden="true"></i></a>
+                        {{/ instagram }}
+                        {{# youtube }}
+                            <a href="{{ youtube }}" target="_blank" class="btn btn-icon btn-round social-youtube m-5"><i class="icon fa-youtube" aria-hidden="true"></i></a>
+                        {{/ youtube }}
+                        {{# pinterest }}
+                            <a href="{{ pinterest }}" target="_blank" class="btn btn-icon btn-round social-pinterest m-5"><i class="icon fa-pinterest" aria-hidden="true"></i></a>
+                        {{/ pinterest }}
+                        
+                    </p>
+                </div>
+            </div>
+            {{/ social }}
+        </div>
+    </div>
+    
+    <!-- bottom sections -->
+    <div class="footer-bottom">
+        <div class="site-footer-legal pt-5">
+            <a href="{{ bottomlink }}">{{{ bottomtext }}}</a>
+        </div>
+        
+        <div class="site-footer-right pt-5">
+            {{# poweredby }}
+            <a href="https://edwiser.org/remui/" rel="nofollow" target="_blank" >{{# str }} poweredby, theme_remui {{/ str }}</a>
+            {{/ poweredby }}
+            
+            {{{ output.standard_footer_html }}}
+            <div id="course-footer">
+                {{{ output.course_footer }}}
+            </div>
+        </div>
+    </div>
+    {{/ footerdata }}
+
+    {{{ output.standard_end_of_body_html }}}
+
+    <!-- screenshot button for homepage -->
+    {{#customfooter}}
+        {{{customfooter}}}
+    {{/customfooter}}
+</footer>

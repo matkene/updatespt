@@ -1,0 +1,71 @@
+Change Log:
+===========
+
+Version 3.7.3
+
+Fix - Child category were not being fetched when parent category is selected on course archieve page.
+Fix - Dictionary feature not working in secure environement problem.
+Fix - List view course card editing menu link issue.
+Fix - Course Archieve page pagination arrows not clickable.
+Fix - Continuous message request problem in moodle messanger.
+Fix - Recent Course menu was throwing error when there is Oracle database installed.
+Fix - Topic/section title gets hidden behind the site header when clicked on the topic/section
+Fix - Couldnot remove tags in course edit settings, when there are more than one tags.
+Fix - Issue while using mail plugin with Edwiser RemUI theme.
+Fix - Multilang support for activity navigation.
+Fix - Multilang support for course archieve page course name tooltip.
+Fix - flat navigation - sub menu icons do not look nice when sidebar is folded.
+Fix - The arrow navigation for next results disappears as soon as you change the size of the window to a certain amount.
+Fix - Site slow issue because of remui_annoucement.
+Fix - Course archieve course card activity grader link not working.
+Fix - Login page messages are not dismissible.
+Fix - Plugin image icon in sidebar was not having proper width.
+Fix - Dashboard block edit menu is overlapping on next block edit button.
+Fix - Selecting the category from dropdown for coursecreator is not able to see the add new and mange course button.
+Fix - Messaging page right sidebar was not opening when merge message panel setting is on.
+Fix - Edit Quiz page, Questions were having styling issue.
+Tweak - Added plugin icon support in sidebar menu.
+Tweak - Multilang strings for Courses and View text in Homepage builder category section.
+Tweak - Remove Unnecessary jquery.js file.
+Tweak - Login Page Scrolling Issue - Height Problem.
+Tweak - Removed Homepage builder from theme, now homepage builder can be used by install local plugin Edwiser HomePage Builder.
+Tweak - White color for latest course cards edit menu triggering dots.
+Tweak - Faq link has been changed in lang files.
+Feature - Turn edit on button on course page feature.
+
+Version 3.7.2
+
+Fix - Selected category from home page category section, not showing proper Courses on course archieve page.
+Fix - Latest slider section had little border radius at corners.
+Fix - Course Archieve course cards are not reponsive in mobile devices.
+Fix - Multilang support for courses cards on Course archieve page.
+Fix - Searched courses on Manage courses page Width issue
+Fix - Recently Accessed Courses Block was not working in Theme RemUI
+Fix - "0" testimonials count error in migrator resolved
+Fix - Courses Section compatible with postgres sql
+Fix - Blank itemid issue with postgres sql in Section Properties.
+Fix - Courses Section date filter not working
+Tweak - Left Sidebar footer menu links changed in backend.
+Tweak - Edwiser RemUI Rating page link on Theme settings page has changed
+
+Version 3.7.1
+
+Fix - get_courses() function updated, exception handled when categories array is blank
+Fix - Activity Menu issue when folded, icons were not visible.
+Fix - Fixed course loading issue on course archive page for unicode course summary.
+Fix - Course archive page pagination problem when clicked above 10 number.
+Fix - Module Forum Width Issue.
+Fix - Module Assign page was not loading.
+
+Version 3.7.0
+
+Edwiser RemUI now compatible with Moodle version 3.7
+Initial Release of Edwiser RemUI 3.7
+
+Fix - Made compatible with new messaging page design and styling.
+Fix - Question review page background color issue.
+Fix - Hidden category and courses issue on course archieve page with all roles except admin.
+Tweak - Course archive page Load more removed and added pagination instead.
+Feature - New Cards design for Course archive page.
+Feature - Brand New Home Page Builder, to create your own frontpage.
+Feature - Share your newly created frontpage design with social media by capturing the screenshot.

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="fixtures">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/empty.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_moodle.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_osx_1074.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_winrar_421.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_winzip_165.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_7zip_927.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_win8_de.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_osx_compress.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_win8_cz.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_tc_8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_infozip_3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_moodle_22.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/filestorage/tests/fixtures/test_thumbsdb.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

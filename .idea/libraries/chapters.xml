@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="chapters">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mod/book/tool/importhtml/tests/fixtures/chapters.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

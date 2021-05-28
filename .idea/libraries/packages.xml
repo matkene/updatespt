@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="packages">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/RuntimeBasicCalls_SCORM20043rdEdition.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/singlescobasic.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/validscorm.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/RuntimeMinimumCalls_SCORM12.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/singlesco_scorm12.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/RuntimeMinimumCalls_SCORM12-mini.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/complexscorm.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/validaicc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/badscorm.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/singlescobasic_missingorg.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mod/scorm/tests/packages/invalid.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
